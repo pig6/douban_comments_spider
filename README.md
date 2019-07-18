@@ -1,0 +1,2 @@
+# douban_comments_spider
+Python模拟登录豆瓣并爬取影评
