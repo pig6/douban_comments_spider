@@ -30,8 +30,8 @@ def login_douban():
     # 请求头
     headers = {'user-agent': 'Mozilla/5.0', 'Referer': 'https://accounts.douban.com/passport/login?source=main'}
     # 传递用户名和密码
-    data = {'name': '17610427518',
-            'password': 'cmc19930906',
+    data = {'name': '你的账号',
+            'password': '你的密码',
             'remember': 'false'}
     try:
         r = s.post(login_url, headers=headers, data=data)
